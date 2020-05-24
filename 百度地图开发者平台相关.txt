@@ -1,0 +1,9 @@
+http://lbsyun.baidu.com/index.php?title=webapi/guide/webservice-placeapi
+以上为百度地图开发者平台地点检索服务，即POI爬取所用服务，其中“服务文档”一栏可供参考
+
+http://api.map.baidu.com/place/v2/search?query=中学&region=南京&page_size=20&page_num=0&output=json&ak=tDM947ZCUIZXzs7ohNHsz77QkU22WzDa
+以上为行政区划的举例，南京市中学POI数据
+
+http://api.map.baidu.com/place/v2/search?query=中学& bounds=31.234796,118.350532,32.616283,119.247639&page_size=20&page_num=0&output=json&ak=tDM947ZCUIZXzs7ohNHsz77QkU22WzDa
+以上为经纬度范围的距离，经纬度矩形左下角为118.350532,31.234796，右上角为119.247639,32.616283的中学POI数据
+
